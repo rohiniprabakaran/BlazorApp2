@@ -1,0 +1,18 @@
+﻿@page
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>_Host</title>
+</head>
+<body>
+	<app>
+		  @(await Html.RenderComponentAsync<BlazorApp2.Client.App>(RenderMode.ServerPrerendered))
+	</app>
+</body>
+</html>
