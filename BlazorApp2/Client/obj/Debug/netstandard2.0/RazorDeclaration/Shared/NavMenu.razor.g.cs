@@ -58,7 +58,7 @@ using Telerik.Blazor.Components;
 
 #line default
 #line hidden
-    public class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)

@@ -54,7 +54,7 @@ using Telerik.Blazor.Components;
 
 #line default
 #line hidden
-    public class MainLayout : LayoutComponentBase
+    public partial class MainLayout : LayoutComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
